@@ -11,6 +11,19 @@
           "src/main/resources/data/vampire_era/advancements/test.json"
         ]
       }
+    },
+    {
+      "name": "Test2",
+      "type": "particle",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampireera/client/particle/Test2Particle.java",
+          "src/main/resources/assets/vampire_era/particles/test_2.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
