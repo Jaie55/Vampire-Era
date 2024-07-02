@@ -1,0 +1,45 @@
+{
+  "mod_elements": [
+    {
+      "name": "A",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/vampireera/item/AItem.java",
+          "src/main/resources/assets/vampire_era/models/item/a.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "language_map": {
+    "en_us": {
+      "item.vampire_era.a": "A"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "vampire_era",
+    "modName": "Vampire Era",
+    "version": "1.0.0",
+    "author": "jon-1, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.vampireera"
+  },
+  "mcreatorVersion": 202400118518
+}
