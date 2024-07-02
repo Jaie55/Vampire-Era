@@ -1,10 +1,26 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Test",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/vampire_era/advancements/test.json"
+        ]
+      }
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {},
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "advancements.test.title": "Test",
+      "advancements.test.descr": "test"
+    }
   },
   "foldersRoot": {
     "name": "~",

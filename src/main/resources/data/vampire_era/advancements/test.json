@@ -1,0 +1,33 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "minecraft:andesite"
+    },
+    "title": {
+      "translate": "advancements.test.title"
+    },
+    "description": {
+      "translate": "advancements.test.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "test_0": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:golden_carrot"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}
